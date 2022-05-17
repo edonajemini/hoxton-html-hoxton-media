@@ -107,23 +107,26 @@ button {
   }
 }
 .footer {
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 30%;
+  height: 26%;
   background-color: #102232;
   color: white;
   text-align:left;
   text-align-last:flex;
   
 }
-.footer h4 ,h5, {
-  margin:15px;
-  padding-top: 0px;
-
- 
+h4 {
+  margin: 20px;
 }
+ul {
+  margin:0px;
+  list-style-type:none;
+}
+
+
 
 
  
