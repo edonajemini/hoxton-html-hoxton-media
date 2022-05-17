@@ -24,11 +24,14 @@ nav a{
   margin:0 auto;
   line-height: 30px;
 }
+
 .logo{
   display: inline-flex;
-  display: flexbox;
- 
-
+  content: "";
+  clear: both;
+}
+.logoyoutube img {
+  padding: 0px;
 }
 .logoyoutube {
   width:100px;
@@ -38,9 +41,18 @@ nav a{
   border-radius: 25px;
   padding: 16px;
   margin: 16px 0;
-  padding-left: 30px;
-  display: flexbox;
+  padding-left: 50px;
+ 
 }
+.logoyoutube img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  margin: auto;
+  float: none;
+  display: block;
+}
+
 .logoinstagram {
   width:100px;
   height:30px;
@@ -121,11 +133,11 @@ button {
   }
 }
 footer {
-  margin: 10px;
+  margin: 0px;
   position:relative;
   bottom: 0;
-  width: 100vh;
-  height: 26%;
+  width: 1000vh;
+  height: 300px;
   background-color: #102232;
   color: white;
   text-align:left;
